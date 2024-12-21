@@ -1,0 +1,39 @@
+[
+{
+  "_id": {
+    "$oid": "6764343acb1168799c51fe347"
+  },
+  "Country": "Argentina",
+  "photo": "https://www.worldometers.info/img/flags/ar-flag.gif",
+  "Workvisa": "Workvisa",
+  "Visitvisa": "Visitvisa",
+  "Studyvisa": "Studyvisa ",
+  "__v": 0
+}
+,
+{
+  "_id": {
+    "$oid": "6764343acb1124469c51fe347"
+  },
+  "Country": "Canada",
+  "photo": "https://www.worldometers.info/img/flags/ca-flag.gif",
+"Workvisa": "Workvisa",
+  "Visitvisa": "Visitvisa",
+  "Studyvisa": "Studyvisa ",
+  "__v": 0
+}
+,
+{
+  "_id": {
+    "$oid": "6764343acb112545359c51fe347"
+  },
+  "Country": "China",
+  "photo": "https://www.worldometers.info/img/flags/ch-flag.gif",
+"Workvisa": "Workvisa",
+  "Visitvisa": "Visitvisa",
+  "Studyvisa": "Studyvisa ",
+  "__v": 0
+}
+
+
+]
