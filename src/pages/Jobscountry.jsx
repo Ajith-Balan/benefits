@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../components/Cards.css";
+import "../components/cards.css";
 import { Link } from "react-router-dom"
 const Jobscountry = () => { const [cardDetails, setCardDetails] = useState([]);
   const [loading, setLoading] = useState(true);
