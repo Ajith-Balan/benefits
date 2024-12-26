@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import "../components/Cards.css";
-import { Link } from "react-router-dom";
-
-const Cards = () => {
-  const [cardDetails, setCardDetails] = useState([]);
+import { Link } from "react-router-dom"
+const Jobscountry = () => { const [cardDetails, setCardDetails] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -12,7 +9,7 @@ const Cards = () => {
     const fetchCardDetails = async () => {
       try {
         setLoading(true);
-        const res = await fetch('/Benifits.countries.json'); // Ensure this path is correct
+        const res = await fetch('/job.json'); // Ensure this path is correct
         if (!res.ok) throw new Error('Network response was not ok');
         const data = await res.json(); 
         setCardDetails(data);
@@ -39,32 +36,22 @@ const Cards = () => {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-6 w-full">
       <div className="flex flex-col justify-center text-center md:text-left">
           <h1 className="text-2xl sm:text-3xl font-bold mb-4">
-          STUDY ABROAD          </h1>
+          Job Seeker      </h1>
           <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4">
-            <strong>STUDY ABROAD:</strong> We offer services for 375 universities 
-            worldwide, covering 4800 professional courses in IT, Science, Arts, 
-            and Hospitality. 
+          HR CONSULTANCY SERVICES FOR WORK PERMIT WITH VISAS IN DIFFERENT COUNTRIES 
           </p>
+        
           <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4">
-            Partnering with A++ star universities in reputable countries such as 
-            the USA, Canada, the UK, Schengen countries, and Singapore.
-          </p>
-          <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4">
-            <strong>OUR BUSINESS CONSULTANCY SERVICES:</strong> 
-          </p>
-          <ul className="list-disc pl-6 text-gray-700 text-sm sm:text-base leading-relaxed">
-            <li>Financial consultancy – Bank, SBIC</li>
-            <li>Work permits and VFS support</li>
-            <li>Visa stamping for candidates with international clients</li>
-            <li>Immigration services in various countries</li>
-          </ul>
+          Different sector – Industrial, Hospital, Education ,Manufacturing , Automobile , IT Sector <br />
+We are A crossing for below countries          </p>
+       
         </div>
 
 
         <div className="grid grid-cols-6 sm:grid-cols-6 md:grid-cols-4 lg:grid-cols-6 gap-4 px-2 py-5 ">
 
   {cardDetails.map((card) => (
-    <Link  to={`/country-details/${card._id.$oid}`} key={card._id.$oid}>
+    <Link  to={`/job-details/${card._id.$oid}`} key={card._id.$oid}>
       <div className="flex justify-center items-center">
         <div className="flip-card w-full max-w-xs sm:max-w-md lg:max-w-lg aspect-square">
           <div className="flip-card-inner">
@@ -96,5 +83,4 @@ const Cards = () => {
     </div>
   );
 };
-
-export default Cards;
+export default Jobscountry

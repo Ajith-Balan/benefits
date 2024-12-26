@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import { useParams } from 'react-router-dom';
 import Layout from '../components/layout/Layout';
 
-const CountryDetails = () => {
+const Jobdetails = () => {
   const [data, setData] = useState(null); // Holds the specific country data
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -12,7 +12,7 @@ const CountryDetails = () => {
 
   const [formData, setFormData] = useState({
     name: '',
-    visatype: 'Study Visa',
+    visatype: 'Job Seeker Visa',
     country: '',
     countryCode: '+91',
     phone: '',
@@ -25,7 +25,7 @@ const CountryDetails = () => {
     const fetchCountryData = async () => {
       try {
         setLoading(true);
-        const res = await fetch('/Benifits.countries.json'); // Ensure this path is correct
+        const res = await fetch('/job.json'); // Ensure this path is correct
         if (!res.ok) throw new Error('Failed to fetch data');
         const countries = await res.json(); // Fetch the array of countries
 
@@ -80,7 +80,7 @@ const CountryDetails = () => {
           alert('Form submitted successfully!');
           setFormData({
             name: "",
-            visatype: "Study Visa",
+            visatype: "Job seeker Visa",
             country: "",
             countryCode: "",
             phone: "",
@@ -104,13 +104,46 @@ const CountryDetails = () => {
   // Ensure `data` exists before rendering
   if (!data) return null;
 
+
+
+
+  
+  
+const jobData = [
+    {
+      country: 'USA',
+      requirements: ['Bachelor’s Degree', '5+ years experience', 'Work Visa'],
+    },
+    {
+      country: 'Canada',
+      requirements: ['English/French proficiency', 'Relevant degree', '2+ years experience'],
+    },
+    {
+      country: 'Germany',
+      requirements: ['Fluent in German', 'Work Permit', '3+ years experience'],
+    },
+    {
+      country: 'Australia',
+      requirements: ['Skill Assessment', 'Work Visa', '4+ years experience'],
+    },
+    {
+      country: 'UAE',
+      requirements: ['Skill Assessment', 'Work Visa', '4+ years experience'],
+    },
+    {
+      country: 'Quatar',
+      requirements: ['Skill Assessment', 'Work Visa', '4+ years experience'],
+    },
+  ];
+  
+  
   return (
     <Layout>
       <div>
         <div className="container max-w-full bg-white overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-6 md:p-12 border">
           <div className="relative">
             <img
-              src="https://www.y-axis.com/assets/cms/2024-12/Visa-page-banner.webp"
+              src="https://images.huffingtonpost.com/2015-12-14-1450098850-1542645-Lookingforajob.jpg"
               alt="Visa Banner"
               className="w-full h-full object-cover"
             />
@@ -118,7 +151,7 @@ const CountryDetails = () => {
 
           <div className="p-6 sm:p-8 lg:p-12 border">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-800 mb-6 text-center">
-              Apply for a Visa
+              Apply for a job seeker Visa
             </h2>
             <form onSubmit={handleSubmit} className="space-y-6 p-7 max-w-lg mx-auto">
   <div className="grid sm:grid-cols-3 gap-4 items-center">
@@ -142,7 +175,7 @@ const CountryDetails = () => {
       className="col-span-2 w-full text-gray-800 bg-transparent border-none border-b-2 border-gray-300 focus:border-blue-500 focus:outline-none focus:ring-0 py-2"
     >
   
-      <option value="study">Study Visa</option>
+      <option value="study">Job Seeker Visa</option>
     
     </select>
   </div>
@@ -243,9 +276,46 @@ const CountryDetails = () => {
             />
           </div>
         </div> */}
+
+
+
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      <div className="p-6  border mt-5">
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div
+            className="bg-white p-4 transition-shadow duration-300 border hover:border-red-600"
+          >
+            <ul className="list-disc list-inside text-gray-700">
+              {data.jobs.map((req, idx) => (
+                <li key={idx} className="mb-1">
+                  {req}
+                </li>
+              ))}
+            </ul>
+           </div>
+      </div>
+    </div>
+
+
+
+
+
     </Layout>
   );
 };
 
-export default CountryDetails;
+export default Jobdetails;

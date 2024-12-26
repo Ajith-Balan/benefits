@@ -16,6 +16,7 @@ import Visitvisa from './pages/Visitvisa';
 import CountryDetails from './pages/CountryDetails';
 import MarqueeText from './components/MarqueeText';
 import Immigration from './pages/Immigration';
+import Jobdetails from './pages/Jobdetails';
 function App() {
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
         <Route path='/visiting-visa' element={<Visitvisa />} />
 
         <Route path='/country-details/:id' element={<CountryDetails />} />
+        <Route path='/job-details/:id' element={<Jobdetails />} />
 
 
         <Route path='/immigration' element={<Immigration />} />

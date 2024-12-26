@@ -1,0 +1,314 @@
+[
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe347"
+      },
+      "Country": "Canada",
+      "photo": "https://www.worldometers.info/img/flags/ca-flag.gif",
+      "jobs": [
+        "Receptionist",
+        "Cashier",
+        "Chef",
+        "Electrical Technician",
+        "Site Engineer",
+        "Nurse",
+        "Hospitality (caregiver)",
+        "Supermarket",
+        "Construction",
+        "Hotel Field"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe348"
+      },
+      "Country": "Austria",
+      "photo": "https://www.worldometers.info/img/flags/at-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe349"
+      },
+      "Country": "Belgium",
+      "photo": "https://www.worldometers.info/img/flags/be-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe350"
+      },
+      "Country": "Croatia",
+      "photo": "https://www.worldometers.info/img/flags/hr-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe351"
+      },
+      "Country": "Denmark",
+      "photo": "https://www.worldometers.info/img/flags/dk-flag.gif",
+      "jobs": [
+        "Receptionist",
+        "Chef",
+        "Electrical Technician"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe352"
+      },
+      "Country": "Estonia",
+      "photo": "https://www.worldometers.info/img/flags/ee-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe353"
+      },
+      "Country": "Finland",
+      "photo": "https://www.worldometers.info/img/flags/fi-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe354"
+      },
+      "Country": "Italy",
+      "photo": "https://www.worldometers.info/img/flags/it-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe355"
+      },
+      "Country": "Saudi Arabia",
+      "photo": "https://www.worldometers.info/img/flags/sa-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe356"
+      },
+      "Country": "UAE",
+      "photo": "https://www.worldometers.info/img/flags/ae-flag.gif",
+      "jobs": [
+        "Receptionist",
+        "Cashier",
+        "Chef",
+        "Nurse"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe357"
+      },
+      "Country": "Bahrain",
+      "photo": "https://www.worldometers.info/img/flags/bh-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe358"
+      },
+      "Country": "Germany",
+      "photo": "https://www.worldometers.info/img/flags/de-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe359"
+      },
+      "Country": "Greece",
+      "photo": "https://www.worldometers.info/img/flags/gr-flag.gif",
+      "jobs": [
+        "Site Engineer",
+        "Supermarket",
+        "Construction"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe360"
+      },
+      "Country": "Hungary",
+      "photo": "https://www.worldometers.info/img/flags/hu-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe361"
+      },
+      "Country": "Iceland",
+      "photo": "https://www.worldometers.info/img/flags/is-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe362"
+      },
+      "Country": "Luxembourg",
+      "photo": "https://www.worldometers.info/img/flags/lu-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe363"
+      },
+      "Country": "France",
+      "photo": "https://www.worldometers.info/img/flags/fr-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe364"
+      },
+      "Country": "Malta",
+      "photo": "https://www.worldometers.info/img/flags/mt-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe365"
+      },
+      "Country": "Netherlands",
+      "photo": "https://www.worldometers.info/img/flags/nl-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe366"
+      },
+      "Country": "Norway",
+      "photo": "https://www.worldometers.info/img/flags/no-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe367"
+      },
+      "Country": "Poland",
+      "photo": "https://www.worldometers.info/img/flags/pl-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe368"
+      },
+      "Country": "Portugal",
+      "photo": "https://www.worldometers.info/img/flags/pt-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe369"
+      },
+      "Country": "Slovakia",
+      "photo": "https://www.worldometers.info/img/flags/sk-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe370"
+      },
+      "Country": "Spain",
+      "photo": "https://www.worldometers.info/img/flags/es-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe371"
+      },
+      "Country": "Sweden",
+      "photo": "https://www.worldometers.info/img/flags/se-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe372"
+      },
+      "Country": "Switzerland",
+      "photo": "https://www.worldometers.info/img/flags/ch-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe373"
+      },
+      "Country": "UK",
+      "photo": "https://www.worldometers.info/img/flags/gb-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe374"
+      },
+      "Country": "USA",
+      "photo": "https://www.worldometers.info/img/flags/us-flag.gif",
+      "jobs": [
+        "Receptionist",
+        "Cashier",
+        "Chef",
+        "Electrical Technician",
+        "Site Engineer",
+        "Nurse",
+        "Supermarket"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe375"
+      },
+      "Country": "Australia",
+      "photo": "https://www.worldometers.info/img/flags/au-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe376"
+      },
+      "Country": "Ireland",
+      "photo": "https://www.worldometers.info/img/flags/ie-flag.gif",
+      "jobs": [],
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "6764343acb1124665469c51fe377"
+      },
+      "Country": "New Zealand",
+      "photo": "https://www.worldometers.info/img/flags/nz-flag.gif",
+      "jobs": [],
+      "__v": 0
+    }
+  ]
+  

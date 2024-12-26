@@ -25,13 +25,18 @@ const Header = () => {
         </Link>
 
           <div className="hidden md:flex text-sm  items-center space-x-3">
-            <div className="flex items-center border-r pr-2">
+            <div className="flex items-center gap-2 border-r pr-2">
               <FaPhoneAlt className="text-lg mr-2" />
-              <a href="tel:+123456789" className="text-red-500">Call: 123456789</a>
+              <div className="flex flex-col">
+              <a href="tel:+6235846558" className="text-blue-500"> 6235846558</a>
+              <a href="tel:+8089319608" className="text-blue-700">8089319608</a>
+              </div>
+       
+
             </div>
             <div className="flex border-r pr-2 items-center">
               <FaWhatsapp className="text-green-500 text-lg mr-2" />
-              <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" className="text-green-500">WhatsApp</a>
+              <a href="https://wa.me/6235846558" target="_blank" rel="noopener noreferrer" className="text-green-500">WhatsApp</a>
             </div>
             <div className="flex border-r pr-2 items-center">
               <Link to={'/contact'}>
@@ -110,7 +115,7 @@ const Header = () => {
           </Link>
      <Link to={`/visiting-visa`} className="w-full">
      <div className="group text-center w-full flex items-center justify-center h-12 border hover:bg-violet-400 hover:border-violet-500 mb-2">
-              Visiting Visa
+               Visa
           </div>
      </Link>
          <Link to={`/job`} className="w-full">
@@ -127,18 +132,18 @@ const Header = () => {
          
           <div className="flex items-center pr-4">
             <FaPhoneAlt className="text-lg mr-2" />
-            <a href="tel:+123456789" className="text-red-500">Call: 123456789</a>
+            <a href="tel:+6235846558" className="text-red-500">Call: 6235846558</a>
           </div>
           <div className="flex items-center">
             <FaWhatsapp className="text-green-500 text-lg mr-2" />
-            <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" className="text-green-500">WhatsApp</a>
+            <a href="https://wa.me/6235846558" target="_blank" rel="noopener noreferrer" className="text-green-500">WhatsApp</a>
           </div>
         </div>
       </div>
-           <nav className="bg-white fixed top-24 z-10 right-0 w-auto hidden md:block">
+           <nav className="bg-white fixed top-24 z-10 right-0 w-full border-t hidden md:block">
         <div className="container mx-auto px-4 flex items-center justify-end">
           <Link to={`/`}>
-          <div className="group text-center hover:text-white w-32 flex items-center justify-center h-12 border hover:bg-emerald-400 hover:border-emerald-500">
+          <div className="group text-center hover:text-white w-32 flex items-center justify-center h-12 border hover:bg-green-400 hover:border-emerald-500">
               Home
           </div>
           </Link>
@@ -149,7 +154,7 @@ const Header = () => {
        </Link>
          <Link to={`/visiting-visa`}>
          <div className="group text-center hover:text-white w-32 flex items-center justify-center h-12 border hover:bg-violet-400 hover:border-violet-500">
-              Visiting Visa
+             Visa
           </div>
          </Link>
         <Link to={`/job`}>

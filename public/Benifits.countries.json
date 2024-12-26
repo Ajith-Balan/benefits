@@ -1,39 +1,137 @@
 [
-{
-  "_id": {
-    "$oid": "6764343acb1168799c51fe347"
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe347" },
+    "Country": "Argentina",
+    "photo": "https://www.worldometers.info/img/flags/ar-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
   },
-  "Country": "Argentina",
-  "photo": "https://www.worldometers.info/img/flags/ar-flag.gif",
-  "Workvisa": "Workvisa",
-  "Visitvisa": "Visitvisa",
-  "Studyvisa": "Studyvisa ",
-  "__v": 0
-}
-,
-{
-  "_id": {
-    "$oid": "6764343acb1124469c51fe347"
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe348" },
+    "Country": "Austria",
+    "photo": "https://www.worldometers.info/img/flags/au-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
   },
-  "Country": "Canada",
-  "photo": "https://www.worldometers.info/img/flags/ca-flag.gif",
-"Workvisa": "Workvisa",
-  "Visitvisa": "Visitvisa",
-  "Studyvisa": "Studyvisa ",
-  "__v": 0
-}
-,
-{
-  "_id": {
-    "$oid": "6764343acb112545359c51fe347"
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe349" },
+    "Country": "Belgium",
+    "photo": "https://www.worldometers.info/img/flags/be-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
   },
-  "Country": "China",
-  "photo": "https://www.worldometers.info/img/flags/ch-flag.gif",
-"Workvisa": "Workvisa",
-  "Visitvisa": "Visitvisa",
-  "Studyvisa": "Studyvisa ",
-  "__v": 0
-}
-
-
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe350" },
+    "Country": "Croatia",
+    "photo": "https://www.worldometers.info/img/flags/hr-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe351" },
+    "Country": "Denmark",
+    "photo": "https://www.worldometers.info/img/flags/da-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe352" },
+    "Country": "Estonia",
+    "photo": "https://www.worldometers.info/img/flags/en-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe353" },
+    "Country": "Finland",
+    "photo": "https://www.worldometers.info/img/flags/fi-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe354" },
+    "Country": "Italy",
+    "photo": "https://www.worldometers.info/img/flags/it-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe355" },
+    "Country": "Saudi Arabia",
+    "photo": "https://www.worldometers.info/img/flags/sa-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe356" },
+    "Country": "UAE",
+    "photo": "https://www.worldometers.info/img/flags/ae-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe357" },
+    "Country": "Bahrain",
+    "photo": "https://www.worldometers.info/img/flags/ba-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe358" },
+    "Country": "Germany",
+    "photo": "https://www.worldometers.info/img/flags/gm-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe359" },
+    "Country": "Oman",
+    "photo": "https://www.worldometers.info/img/flags/mu-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe360" },
+    "Country": "Qatar",
+    "photo": "https://www.worldometers.info/img/flags/qa-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6764343acb1168799c51fe361" },
+    "Country": "Kuwait",
+    "photo": "https://www.worldometers.info/img/flags/ku-flag.gif",
+    "Workvisa": "Workvisa",
+    "Visitvisa": "Visitvisa",
+    "Studyvisa": "Studyvisa",
+    "__v": 0
+  }
 ]

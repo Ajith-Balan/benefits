@@ -86,8 +86,8 @@ const Visitvisa = () => {
       ],
     },
     {
-      name: "Germany",
-      status: "Restricted",
+      name: "Newzland",
+      status: "Open",
       requirements: [
         "Valid Passport",
         "Travel Insurance",
@@ -95,22 +95,30 @@ const Visitvisa = () => {
       ],
     },
     {
-      name: "China",
+      name: "Australia",
       status: "Open",
-      requirements: [  "Valid Passport",
+      requirements: [
+        "Valid Passport",
         "Travel Insurance",
-        "Invitation Letter",],
+        "Invitation Letter",
+      ],
     },
     {
-        name: "Japan",
-        status: "Closed",
-        requirements: ["N/A (Borders Currently Closed)"],
-      },
+        name: "Uk",
+        status: "Open",
+        requirements: [
+          "Valid Passport",
+          "Travel Insurance",
+          "Invitation Letter",
+        ],      },
       {
-        name: "London",
-        status: "Restricted",
-        requirements: ["N/A (Borders Currently Closed)"],
-      },
+        name: "Singapore",
+        status: "Open",
+        requirements: [
+          "Valid Passport",
+          "Travel Insurance",
+          "Invitation Letter",
+        ],      },
   ];
 
 
@@ -194,11 +202,12 @@ const Visitvisa = () => {
       className="col-span-2 w-full text-gray-800 bg-transparent border-none border-b-2 border-gray-300 focus:border-blue-500 focus:outline-none focus:ring-0 py-2"
     >
       <option value="" disabled>Choose visa type</option>
-      <option value="tourist">Tourist Visa</option>
-      <option value="business">Business Visa</option>
+      <option value="tourist">Spouse Visa</option>
+      <option value="business">Job seeker Visa</option>
       <option value="study">Study Visa</option>
-      <option value="work">Work Visa</option>
-      <option value="immigration">Immigration Visa</option>
+      <option value="work">Aupair Visa</option>
+      <option value="immigration">Oppertunity card</option>
+      <option value="immigration">Multiple entry visa</option>
     </select>
   </div>
 

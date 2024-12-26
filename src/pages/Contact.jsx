@@ -49,7 +49,7 @@ const Contact = () => {
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">
       <Layout title={'Contact Us'}>
-        <div className="max-w-3xl mx-auto bg-white shadow-md rounded-lg p-6">
+        <div className="w-full mx-auto bg-white shadow-md rounded-lg p-6">
           <h1 className="text-3xl font-semibold mt-6 mb-4 text-center text-blue-600">
             Get in Touch
           </h1>

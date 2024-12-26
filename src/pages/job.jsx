@@ -9,7 +9,7 @@ const Job = () => {
 
   const [formData, setFormData] = useState({
     name: "",
-    visatype: "Work Visa",
+    visatype: "Job seeker Visa",
     country: "",
     countryCode: "",
     phone: "",
@@ -186,12 +186,8 @@ const testimonials = [
       onChange={handleChange}
       className="col-span-2 w-full text-gray-800 bg-transparent border-none border-b-2 border-gray-300 focus:border-blue-500 focus:outline-none focus:ring-0 py-2"
     >
-      <option value="" disabled>Choose visa type</option>
-      <option value="tourist">Tourist Visa</option>
-      <option value="business">Business Visa</option>
-      <option value="study">Study Visa</option>
-      <option value="work">Work Visa</option>
-      <option value="immigration">Immigration Visa</option>
+
+      <option value="Job seeker Visa">Job seeker Visa</option>
     </select>
   </div>
 
@@ -204,13 +200,32 @@ const testimonials = [
       className="col-span-2 w-full text-gray-800 bg-transparent border-none border-b-2 border-gray-300 focus:border-blue-500 focus:outline-none focus:ring-0 py-2"
     >
   <option value="" disabled>Select country</option>
-      <option value="usa">United States</option>
+      <option value="Austria">Austria </option>
+      <option value="Belgium"> Belgium</option>
+      <option value="Crotia"> Croatia</option>
       <option value="canada">Canada</option>
-      <option value="uk">United Kingdom</option>
-      <option value="australia">Australia</option>
-      <option value="india">India</option>
+
       <option value="germany">Germany</option>
-      <option value="france">France</option>
+
+      <option value="French">French </option>
+      <option value="Denmark">Denmark</option>
+      <option value="Estonia">Estonia</option>
+<option value="Finland">Finland</option>
+<option value="Italy">Italy</option>
+<option value="Lavia">Lavia</option>
+<option value="Liechtenstein">Liechtenstein</option>
+<option value="Lithunia">Lithunia</option>
+<option value="Greece">Greece</option>
+<option value="Hungary">Hungary</option>
+<option value="IceLand">Iceland</option>
+<option value="Luxembourg">Luxebbourg</option>
+<option value="Malta">Malta</option>
+<option value="Norway">Norway</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Slovakia">Slovakia</option>
+
+
     </select>
   </div>
 
@@ -285,7 +300,7 @@ const testimonials = [
        </div>
 
 
-       <div className="p-6  border mt-5">
+      <div className="p-6  border mt-5">
       <h1 className="text-2xl font-bold text-center mb-6">Job Requirements by Country</h1>
       <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {jobData.map((job, index) => (
@@ -301,7 +316,7 @@ const testimonials = [
                 </li>
               ))}
             </ul>
-          </div>
+           </div>
         ))}
       </div>
     </div>

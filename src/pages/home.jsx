@@ -5,6 +5,7 @@ import Layout from '../components/layout/Layout';
 import Cards from './Cards.jsx';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { div } from 'framer-motion/client';
+import Jobscountry from './Jobscountry.jsx';
 const Home = () => {
 
 
@@ -164,7 +165,9 @@ const testimonials = [
 
 
 
+<br />
 
+<Jobscountry/>
 
 
 
