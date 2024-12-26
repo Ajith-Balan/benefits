@@ -48,7 +48,7 @@ We are A crossing for below countries          </p>
         </div>
 
 
-        <div className="grid grid-cols-6 sm:grid-cols-6 md:grid-cols-4 lg:grid-cols-6 gap-4 px-2 py-5 ">
+        <div className="grid grid-cols-6 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4 px-2 py-5 ">
 
   {cardDetails.map((card) => (
     <Link  to={`/job-details/${card._id.$oid}`} key={card._id.$oid}>
